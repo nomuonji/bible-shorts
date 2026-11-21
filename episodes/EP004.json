@@ -1,0 +1,43 @@
+{
+  "id": "EP004",
+  "sequence": 4,
+  "title": {
+    "ja": "生き物の誕生",
+    "en": "Life fills the world"
+  },
+  "passage": {
+    "book": "GEN",
+    "from": {
+      "chapter": 1,
+      "verse": 20
+    },
+    "to": {
+      "chapter": 1,
+      "verse": 25
+    }
+  },
+  "format": "narration",
+  "state": "planned",
+  "holdReason": null,
+  "lesson": {
+    "sourceEdition": "engwebp",
+    "scriptPath": null,
+    "learningTarget": null,
+    "englishQuoteReferences": [],
+    "adaptationDisclosure": null,
+    "translationReviewed": false
+  },
+  "production": {
+    "engine": "animation-factory",
+    "style": "low-poly-3d",
+    "productionId": "bible-ep004",
+    "productionRevision": null,
+    "artifactSha256": null,
+    "reviewUrl": null,
+    "qa": null
+  },
+  "approval": null,
+  "delivery": null,
+  "metrics": {},
+  "events": []
+}
