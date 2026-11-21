@@ -1,0 +1,43 @@
+{
+  "id": "EP005",
+  "sequence": 5,
+  "title": {
+    "ja": "人間の創造",
+    "en": "Humanity is created"
+  },
+  "passage": {
+    "book": "GEN",
+    "from": {
+      "chapter": 1,
+      "verse": 26
+    },
+    "to": {
+      "chapter": 1,
+      "verse": 31
+    }
+  },
+  "format": "narration",
+  "state": "planned",
+  "holdReason": null,
+  "lesson": {
+    "sourceEdition": "engwebp",
+    "scriptPath": null,
+    "learningTarget": null,
+    "englishQuoteReferences": [],
+    "adaptationDisclosure": null,
+    "translationReviewed": false
+  },
+  "production": {
+    "engine": "animation-factory",
+    "style": "low-poly-3d",
+    "productionId": "bible-ep005",
+    "productionRevision": null,
+    "artifactSha256": null,
+    "reviewUrl": null,
+    "qa": null
+  },
+  "approval": null,
+  "delivery": null,
+  "metrics": {},
+  "events": []
+}
