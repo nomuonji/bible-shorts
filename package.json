@@ -1,0 +1,18 @@
+{
+  "name": "bible-shorts",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Canon-order Bible Shorts editorial ledger and dashboard",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "validate": "node scripts/bible.mjs validate",
+    "test": "node --test tests/*.test.mjs",
+    "build": "node scripts/bible.mjs build",
+    "check": "node scripts/bible.mjs validate && node --test tests/*.test.mjs && node scripts/bible.mjs build",
+    "next": "node scripts/bible.mjs next",
+    "summary": "node scripts/bible.mjs summary"
+  }
+}
