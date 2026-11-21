@@ -1,0 +1,43 @@
+{
+  "id": "EP003",
+  "sequence": 3,
+  "title": {
+    "ja": "太陽・月・星",
+    "en": "Lights in the sky"
+  },
+  "passage": {
+    "book": "GEN",
+    "from": {
+      "chapter": 1,
+      "verse": 14
+    },
+    "to": {
+      "chapter": 1,
+      "verse": 19
+    }
+  },
+  "format": "narration",
+  "state": "planned",
+  "holdReason": null,
+  "lesson": {
+    "sourceEdition": "engwebp",
+    "scriptPath": null,
+    "learningTarget": null,
+    "englishQuoteReferences": [],
+    "adaptationDisclosure": null,
+    "translationReviewed": false
+  },
+  "production": {
+    "engine": "animation-factory",
+    "style": "low-poly-3d",
+    "productionId": "bible-ep003",
+    "productionRevision": null,
+    "artifactSha256": null,
+    "reviewUrl": null,
+    "qa": null
+  },
+  "approval": null,
+  "delivery": null,
+  "metrics": {},
+  "events": []
+}

@@ -1,0 +1,43 @@
+{
+  "id": "EP006",
+  "sequence": 6,
+  "title": {
+    "ja": "七日目の安息",
+    "en": "The seventh day"
+  },
+  "passage": {
+    "book": "GEN",
+    "from": {
+      "chapter": 2,
+      "verse": 1
+    },
+    "to": {
+      "chapter": 2,
+      "verse": 3
+    }
+  },
+  "format": "narration",
+  "state": "planned",
+  "holdReason": null,
+  "lesson": {
+    "sourceEdition": "engwebp",
+    "scriptPath": null,
+    "learningTarget": null,
+    "englishQuoteReferences": [],
+    "adaptationDisclosure": null,
+    "translationReviewed": false
+  },
+  "production": {
+    "engine": "animation-factory",
+    "style": "low-poly-3d",
+    "productionId": "bible-ep006",
+    "productionRevision": null,
+    "artifactSha256": null,
+    "reviewUrl": null,
+    "qa": null
+  },
+  "approval": null,
+  "delivery": null,
+  "metrics": {},
+  "events": []
+}

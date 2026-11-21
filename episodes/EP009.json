@@ -1,0 +1,43 @@
+{
+  "id": "EP009",
+  "sequence": 9,
+  "title": {
+    "ja": "蛇と禁じられた実",
+    "en": "The forbidden fruit"
+  },
+  "passage": {
+    "book": "GEN",
+    "from": {
+      "chapter": 3,
+      "verse": 1
+    },
+    "to": {
+      "chapter": 3,
+      "verse": 7
+    }
+  },
+  "format": "dramatization",
+  "state": "planned",
+  "holdReason": null,
+  "lesson": {
+    "sourceEdition": "engwebp",
+    "scriptPath": null,
+    "learningTarget": null,
+    "englishQuoteReferences": [],
+    "adaptationDisclosure": null,
+    "translationReviewed": false
+  },
+  "production": {
+    "engine": "animation-factory",
+    "style": "low-poly-3d",
+    "productionId": "bible-ep009",
+    "productionRevision": null,
+    "artifactSha256": null,
+    "reviewUrl": null,
+    "qa": null
+  },
+  "approval": null,
+  "delivery": null,
+  "metrics": {},
+  "events": []
+}

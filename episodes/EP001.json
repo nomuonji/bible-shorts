@@ -1,0 +1,43 @@
+{
+  "id": "EP001",
+  "sequence": 1,
+  "title": {
+    "ja": "光の誕生",
+    "en": "Light breaks into darkness"
+  },
+  "passage": {
+    "book": "GEN",
+    "from": {
+      "chapter": 1,
+      "verse": 1
+    },
+    "to": {
+      "chapter": 1,
+      "verse": 5
+    }
+  },
+  "format": "narration",
+  "state": "planned",
+  "holdReason": null,
+  "lesson": {
+    "sourceEdition": "engwebp",
+    "scriptPath": null,
+    "learningTarget": null,
+    "englishQuoteReferences": [],
+    "adaptationDisclosure": null,
+    "translationReviewed": false
+  },
+  "production": {
+    "engine": "animation-factory",
+    "style": "low-poly-3d",
+    "productionId": "bible-ep001",
+    "productionRevision": null,
+    "artifactSha256": null,
+    "reviewUrl": null,
+    "qa": null
+  },
+  "approval": null,
+  "delivery": null,
+  "metrics": {},
+  "events": []
+}

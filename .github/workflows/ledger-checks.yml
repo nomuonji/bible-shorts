@@ -1,0 +1,31 @@
+name: Bible Shorts — Ledger Checks
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-and-preview:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Validate 66-book order and publication gates
+        run: npm run validate
+      - name: Exercise the safety contracts
+        run: npm test
+      - name: Build static management dashboard
+        run: npm run build
+      - name: Upload reviewable dashboard (no publication)
+        uses: actions/upload-artifact@v4
+        with:
+          name: bible-shorts-dashboard
+          path: dist/
+          retention-days: 30

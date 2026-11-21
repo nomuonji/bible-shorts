@@ -1,0 +1,43 @@
+{
+  "id": "EP010",
+  "sequence": 10,
+  "title": {
+    "ja": "園を去る日",
+    "en": "The way out of Eden"
+  },
+  "passage": {
+    "book": "GEN",
+    "from": {
+      "chapter": 3,
+      "verse": 8
+    },
+    "to": {
+      "chapter": 3,
+      "verse": 24
+    }
+  },
+  "format": "dramatization",
+  "state": "planned",
+  "holdReason": null,
+  "lesson": {
+    "sourceEdition": "engwebp",
+    "scriptPath": null,
+    "learningTarget": null,
+    "englishQuoteReferences": [],
+    "adaptationDisclosure": null,
+    "translationReviewed": false
+  },
+  "production": {
+    "engine": "animation-factory",
+    "style": "low-poly-3d",
+    "productionId": "bible-ep010",
+    "productionRevision": null,
+    "artifactSha256": null,
+    "reviewUrl": null,
+    "qa": null
+  },
+  "approval": null,
+  "delivery": null,
+  "metrics": {},
+  "events": []
+}

@@ -1,0 +1,43 @@
+{
+  "id": "EP007",
+  "sequence": 7,
+  "title": {
+    "ja": "エデンの園",
+    "en": "A garden in Eden"
+  },
+  "passage": {
+    "book": "GEN",
+    "from": {
+      "chapter": 2,
+      "verse": 4
+    },
+    "to": {
+      "chapter": 2,
+      "verse": 17
+    }
+  },
+  "format": "dramatization",
+  "state": "planned",
+  "holdReason": null,
+  "lesson": {
+    "sourceEdition": "engwebp",
+    "scriptPath": null,
+    "learningTarget": null,
+    "englishQuoteReferences": [],
+    "adaptationDisclosure": null,
+    "translationReviewed": false
+  },
+  "production": {
+    "engine": "animation-factory",
+    "style": "low-poly-3d",
+    "productionId": "bible-ep007",
+    "productionRevision": null,
+    "artifactSha256": null,
+    "reviewUrl": null,
+    "qa": null
+  },
+  "approval": null,
+  "delivery": null,
+  "metrics": {},
+  "events": []
+}
