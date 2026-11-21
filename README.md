@@ -54,4 +54,10 @@ planned → scripted → rendered → qa_passed → approved → queued → publ
 
 本MVPは**Git台帳＋CLI＋静的管理画面**です。My Portalへのナビゲーション、Animation Factoryへの自動ジョブ投入、Video Publisherへの予約送信、公開結果/Analytics自動回収は未接続。個別のチャンネル接続と明示的な公開許可なしに自動投稿を有効化しません。既存のChatGPT定期ジョブ枠も増やしません。
 
+## スマホから管理画面を見る
+
+GitHub Pagesを有効化する場合は、GitHubの **Settings → Pages → Build and deployment → Source: GitHub Actions** を一度選択してください。GitHub Appからの初回有効化は権限不足のため不可でした。その後 **Actions → Bible Shorts — Dashboard Pages → Run workflow** でデプロイできます。**台帳は読み取り専用**です。更新操作はレビュー済みGit PRを通します。
+
+また、GitHub Actionsの `bible-shorts-dashboard` artifactを展開して `index.html` を開く方法なら、Pages設定前でもオフラインで閲覧できます。
+
 詳しくは [docs/integrations.md](docs/integrations.md)、作業エージェントは [AGENTS.md](AGENTS.md) を参照。
