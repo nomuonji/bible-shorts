@@ -85,9 +85,12 @@ function renderNext(){
 }
 async function init(){
   try{
-    const response=await fetch("./data.json",{cache:"no-store"});
-    if(!response.ok)throw Error("HTTP "+response.status);
-    data=await response.json();
+    if(window.__BIBLE_SHORTS_DATA__) data=window.__BIBLE_SHORTS_DATA__;
+    else {
+      const response=await fetch("./data.json",{cache:"no-store"});
+      if(!response.ok)throw Error("HTTP "+response.status);
+      data=await response.json();
+    }
     if(!data.catalog?.books || !data.episodes)throw Error("Unexpected data schema");
     renderStats();renderBooks();renderEpisodes();renderNext();
     $("generated").textContent="台帳生成 "+compareStamp(data.generatedAt);
