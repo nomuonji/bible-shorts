@@ -28,6 +28,7 @@ if(command==="validate"){
   const dist=join(root,"dist");
   await mkdir(dist,{recursive:true});
   for(const file of ["index.html","app.js","styles.css"])await copyFile(join(root,"web",file),join(dist,file));
+  await writeFile(join(dist,"data.js"),"window.__BIBLE_SHORTS_DATA__ = "+JSON.stringify({generatedAt:new Date().toISOString(),catalog,episodes,summary:createSummary(catalog,episodes),warnings:result.warnings})+";\n");
   const data={generatedAt:new Date().toISOString(),catalog,episodes,summary:createSummary(catalog,episodes),warnings:result.warnings};
   await writeFile(join(dist,"data.json"),JSON.stringify(data,null,2)+"\n");
   console.log("Dashboard built: dist/index.html");
