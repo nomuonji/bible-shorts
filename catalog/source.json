@@ -1,0 +1,11 @@
+{
+  "canon": "protestant-66",
+  "sourceEdition": "engwebp",
+  "sourceName": "World English Bible (66-book edition)",
+  "canonicalSource": "https://ebible.org/engwebp/",
+  "copyrightPolicy": "Text is public domain; distinguish exact WEB quotations from adapted English dialogue. The World English Bible name is a trademark; do not use it to label altered text.",
+  "sourceTextBundled": false,
+  "referencePolicy": "Store book/chapter/verse references and source-checked quotations in reviewed scripts; this index does not claim to include or verify all verse text.",
+  "editorialDefault": "narrative-first English learning, Japanese subtitle support",
+  "unverifiedChapterVerseCounts": "Never assert verse-level completion outside verifiedVerseCounts."
+}
